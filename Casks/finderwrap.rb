@@ -2,10 +2,10 @@ cask "finderwrap" do
   version "1.0.14,17"
   sha256 "bccc28b323cd07dee7adf3a6a4ad9c7606ec9273a9cb398df19d90bbb70767f1"
 
-  url "https://github.com/ygnstudio/FinderWrap/releases/download/v#{version.csv.first}/FinderWrap-#{version.csv.first}-b#{version.csv.second}-fixed-arm64.dmg"
+  url "https://github.com/YanGN-ST/FinderWrap/releases/download/v#{version.csv.first}/FinderWrap-#{version.csv.first}-b#{version.csv.second}-fixed-arm64.dmg"
   name "FinderWrap"
   desc "Row-wrapping arrow-key navigation for Finder icon views"
-  homepage "https://github.com/ygnstudio/FinderWrap"
+  homepage "https://github.com/YanGN-ST/FinderWrap"
 
   livecheck do
     url :url

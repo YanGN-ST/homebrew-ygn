@@ -1,5 +1,6 @@
 cask "blinker" do
   version "0.7.0"
+  disable! date: "2026-11-06", because: :no_longer_available
   sha256 "fc15de460e09616adfad6b909024531d802b75c53bb5e00d02162b7dfc6ecb13"
 
   url "https://github.com/ygnstudio/Blinker/releases/download/v#{version}/Blinker-v#{version}.dmg"
